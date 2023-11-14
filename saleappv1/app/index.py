@@ -1,8 +1,7 @@
-from flask import Flask, render_template, request
+from flask import render_template, request
 
 import dao
-
-app = Flask(__name__)
+from saleappv1.app import app
 
 
 @app.route('/')
