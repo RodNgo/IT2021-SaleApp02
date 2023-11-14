@@ -2,4 +2,7 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 git clone <link>
+
 git status
+git commit -m 'reason'
+git push origin main
